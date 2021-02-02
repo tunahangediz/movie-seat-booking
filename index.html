@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <div style="display: flex; margin-top:20px ;" class="colors">
+      <div class="empty"></div><h5>Empty</h5>
+
+          <div style="background-color:rgba(220, 20, 60, 0.838) ;" class="seat"></div><h5>Occupied</h5>
+          <div style=" background-color: rgb(178, 39, 206)" class="seat"></div><h5>
+            Selected
+          </h5>
+      
+    </div>
+    
+      
+    </div>
+    <label style="font-size: x-large; color:rgba(255, 255, 255, 0.9 ) " for="movies">Select a Movie </label>
+    <select  name="movies" id="movies">
+      <option value="15">Star Wars ($15)</option>
+      <option value="10">Dune ($10)</option>
+      <option value="20">Lord of The Rings ($20)</option>
+    </select>
+    <div  class="box"></div>
+    <div class="container">
+      
+      
+      <div class="seats">
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row2">
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+      </div>      
+    </div>
+    <h4 id="totalC">Total Cost</h4>
+    <script   src="./storage.js"></script>
+    <script  src="./script.js"></script>
+    
+  </body>
+</html>
